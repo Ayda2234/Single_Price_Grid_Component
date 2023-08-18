@@ -13,7 +13,7 @@ body{
     grid-template-columns: 1fr;
     background-color: white;
     text-align: relative;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 0px;
     padding-left: 170px;
     padding-right: 230px;
@@ -46,6 +46,7 @@ body{
     border: 1px solid #4abebd;
     padding: 80px;
     margin-right :135px;
+    padding-top: 30px;
 
   }
 .top-grid h1{
@@ -54,23 +55,37 @@ body{
 }
 .top-grid h2 {
     color: #bcdd3b;
-}
+    margin-bottom: 0px;  }
 .top-grid p {
     color: #bec1c8;
     font-size: 20px;
-}
+    margin-bottom: 40px;  }
+
+
 button {
         display: inline-block;
-        padding: 10px 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-size: 16px;
         border: none;
-        background-color: #007bff;
+        background-color: #bcdd3b;
         color: #fff;
         cursor: pointer;
         border-radius: 5px;
+        font-size: 20px;
+        margin-left: 10px;
+
       }
 button:hover {
         background-color:#bcdd3b ;
     
+}
+.Price{
+  font-size: 40px;
+}
+.sub-grid1 p {
+  font-size: 18px;
 }
     
